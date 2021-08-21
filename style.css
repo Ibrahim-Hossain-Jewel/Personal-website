@@ -1,0 +1,79 @@
+/*Starting home page designing css code*/
+body{
+    background-color: #EEEEEE;
+}
+.headSite header{
+    padding-top: 22px;
+}
+.headSite header span{
+    color: #666666;
+    font-size: large;
+}
+.headSite h1{
+    display: inline;
+}
+.headSite img{
+    float: right;
+    display: inline;
+    max-width: 150px;
+}
+.navigation ul{
+    list-style: none;
+    padding: 20px 0px 30px 0px;
+}
+.navigation ul li{
+    float: left;
+    display: inline;
+}
+.navigation ul li a{
+    text-decoration: none;
+    font-size: large;   
+    color:black;
+    padding-right: 20px;
+}
+.navigation ul li a:hover{
+    color: #006A4E;
+}
+.aboutMe{
+    background-color: white;
+    overflow: hidden;
+    padding: 25px;
+    height: 100%;
+}
+.aboutMe p{
+    text-align: justify;
+    line-height: 23px;
+    word-spacing: 1px;
+}
+.aboutMe h2,h3{
+    color: rgb(228, 102, 80);
+}
+.row{
+    --bs-gutter-x:0rem;
+}
+@media only screen and (max-width: 560px) {
+    .headSite img{
+        max-width: 50px;
+    }
+  }
+  /*Ended the Home page CSS code here*/
+  
+  /*contact page CSS start from here*/
+.aboutMe ul{
+    list-style:circle;
+}
+.aboutMe ul li{
+    padding-bottom: 10px;
+}
+.aboutMe ul li a{
+    color: black;
+}
+.aboutMe ul li a:hover{
+    color: #006A4E;
+}
+code{
+    background: #EEEEEE;
+    padding: 2px;
+    border-radius: 5px;
+    color:black;
+}
